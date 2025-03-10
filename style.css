@@ -296,6 +296,7 @@
 }
 
 #content .intro-img {
+  align-self: center;
   width: 100%;
   border-radius: 20px;
 }
@@ -326,7 +327,8 @@
   max-width: 320px;
 
   &:hover {
-    box-shadow: 0 5px 5px 0 #dddddd;
+    transform: translateY(-10px);
+    box-shadow: 0 3px 5px 0 #dddddd;
   }
 }
 
@@ -393,8 +395,8 @@
 }
 
 .special-itemst {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 60px;
+  margin-bottom: 60px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
@@ -440,7 +442,7 @@
 }
 
 .special-itemst .item.item2 {
-  background-color: #f1f1f1;
+  background-color: #ffffff;
 
   &:hover {
     background-color: #d1d1d1;
